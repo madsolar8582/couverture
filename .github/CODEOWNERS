@@ -6,3 +6,6 @@
 
 # Order is important. The last matching pattern has the most precedence.
 *.rb @madsolar8582
+*.yml @madsolar8582
+*.json @madsolar8582
+*.md @madsolar8582
