@@ -5,7 +5,7 @@ require 'rdoc/task'
 require 'rspec/core/rake_task'
 require 'rubocop/rake_task'
 
-task default: [] # update this
+task default: %w[ci]
 
 RDoc::Task.new do |rdoc|
   rdoc.main = 'README.md'
@@ -15,3 +15,11 @@ end
 
 RSpec::Core::RakeTask.new(:spec)
 RuboCop::RakeTask.new
+
+desc 'Run Rubocop and RSpec'
+task :ci do
+  Rake::Task['rubocop'].reenable
+  Rake::Task['rubocop'].invoke
+  Rake::Task['spec'].reenable
+  Rake::Task['spec'].invoke
+end
