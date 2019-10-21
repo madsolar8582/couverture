@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.files         = Dir['lib/**/*'] + %w[README.md LICENSE.md]
   spec.test_files    = Dir['spec/**/*']
   spec.require_paths = ['lib']
-  spec.required_ruby_version = '>= 2.0.0'
+  spec.required_ruby_version = '>= 2.3.0'
   spec.metadata['allowed_push_host'] = 'https://rubygems.pkg.github.com/'
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = 'https://github.com/madsolar8582/couverture'

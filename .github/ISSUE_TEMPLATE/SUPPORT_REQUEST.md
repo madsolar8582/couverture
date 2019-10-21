@@ -13,4 +13,4 @@ For beta OS releases and Xcode releases, please provide the build number.
 * Version(s) of Ruby:
 
 ## Additional Context
-Please explain any attachments here. Add anything you think helps provide context (e.g. screenshots).
+Add anything you think helps solve/explain the issue here (e.g. xcresult bundle or profdata).

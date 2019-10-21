@@ -10,4 +10,4 @@ A clear and concise description of what you want.
 Detail any alternatives you've tried to accomplish your goal.
 
 ## Additional Context
-Please explain any attachments here. Add anything you think helps explain why you are requesting this feature.
+Add anything you think helps explain the request here.

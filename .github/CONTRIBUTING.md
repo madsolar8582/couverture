@@ -61,7 +61,7 @@ Please open a corresponding issue first. This allows for agreement on the implem
 * All pull requests should be based off of the `master` branch. Please do not include any unmerged changes from other branches.
 * All pull requests should be scoped to one change only. Seemingly trivial changes alongside other changes may have unforeseen consequences. By limiting the number of changes in a pull request, it makes bug isolation much easier.
 * All pull requests must have a descriptive title (avoid Fixes #XXXX).
-* All pull requests must adhere to the project's code standards (see below).
+* All pull requests must adhere to the project's code standards.
 * All pull requests are checked by a few automated systems. Please ensure that your change passes these checks.
 * Changes must have corresponding test updates (if applicable).
 * Changes must have corresponding documentation updates (if applicable).
