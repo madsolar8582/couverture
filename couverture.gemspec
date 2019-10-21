@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.version       = Couverture::VERSION
   spec.authors       = ['Madison Solarana']
   spec.summary       = 'Converts Xcode coverage data to Cobertura XML'
-  spec.description   = 'Converts Xcode coverage data to Cobertura XML from profdata, xcresult bundles, or xccov json'
+  spec.description   = 'Converts Xcode coverage data to Cobertura XML from xcresult bundles or xccov json'
   spec.homepage      = 'https://github.com/madsolar8582/couverture'
   spec.license       = 'LGPLv3'
   spec.executables   = %w[couverture]

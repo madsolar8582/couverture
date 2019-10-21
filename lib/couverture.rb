@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 require 'couverture/version'
+require 'couverture/command'
 
-# rubocop:disable Style/Documentation
+# Converts Xcode coverage data to coburtura XML.
 module Couverture
 end
-# rubocop:enable Style/Documentation
