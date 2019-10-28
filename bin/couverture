@@ -5,4 +5,4 @@ $LOAD_PATH.unshift("#{__dir__}/../lib")
 
 require 'couverture'
 
-Couverture::Command.new.parse
+Couverture::Converter.new.start

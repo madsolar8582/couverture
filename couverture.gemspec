@@ -4,7 +4,6 @@ lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'couverture/version'
 
-# rubocop:disable Metrics/LineLength
 Gem::Specification.new do |spec|
   spec.name          = 'couverture'
   spec.version       = Couverture::VERSION
@@ -32,8 +31,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec', '~> 3.9'
   spec.add_development_dependency 'rubocop', '~> 0.75'
   spec.add_development_dependency 'rubocop-performance', '~> 1.5'
+  spec.add_development_dependency 'rubocop-rake', '~> 0.4'
   spec.add_development_dependency 'rubocop-rspec', '~> 1.36'
   spec.add_development_dependency 'ruby-debug-ide', '~> 0.7'
   spec.add_development_dependency 'simplecov', '~> 0.17'
 end
-# rubocop:enable Metrics/LineLength
