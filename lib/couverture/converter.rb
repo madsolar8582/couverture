@@ -44,6 +44,7 @@ module Couverture
     # Output the current version.
     def print_version
       puts Couverture::VERSION
+      exit(0)
     end
   end
 end
